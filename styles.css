@@ -138,3 +138,12 @@ img {
 .arrow-right-products {
   margin-bottom: 32px;
 }
+@media only screen and (max-width: 320px) {
+  .items {
+    flex-wrap: wrap;
+  }
+  .icecream-pink,
+  .icecream-yellow {
+    margin-bottom: 120px;
+  }
+}
