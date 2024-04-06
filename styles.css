@@ -1,0 +1,140 @@
+:root {
+  --dm-family: "DM Sans", sans-serif;
+  --titan-family: "Titan One", sans-serif;
+  --red: rgb(212, 20, 67);
+  --white: rgb(255, 255, 255);
+  --pink: rgb(255, 165, 186);
+  --black: rgb(0, 0, 0);
+  --beige: rgb(240, 209, 165);
+  --green: rgb(194, 226, 151);
+  --gray: rgb(144, 126, 130);
+  --background-color: rgb(255, 184, 202);
+  --hover-buttons: rgb(236, 235, 235);
+  --icons-background: rgb(254, 165, 187);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: var(--dm-family);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.natural {
+  margin: 0;
+  font-family: var(--titan-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34.35px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: var(--pink);
+}
+
+.products {
+  margin: 0;
+  font-family: var(--titan-family);
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 66.41px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--red);
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 32px;
+  margin-top: 200px;
+}
+
+.icecream-pink,
+.icecream-yellow,
+.icecream-green {
+  height: 611px;
+  border: transparent;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em; /* Acesta adaugă spațiu la baza chenarului */
+  /* padding-bottom: 100px; */
+}
+.icecream-pink {
+  background-color: var(--pink);
+}
+.icecream-yellow {
+  background-color: var(--beige);
+}
+.icecream-green {
+  background-color: var(--green);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  /* margin: 0 80px; */
+}
+.pic {
+  margin-top: -138px;
+  width: 224px;
+}
+.products-headline {
+  color: var(--white);
+  font-family: var(--titan-family);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22.9px;
+  letter-spacing: 0.04em;
+  margin-top: 32px;
+}
+.products-details {
+  font-family: var(--dm-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24.64px;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  width: 188px;
+  height: 225px;
+}
+.section-products-headline {
+  margin-top: 60px;
+  margin-bottom: -46px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.white-three-dots {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.arrow-right-products {
+  margin-bottom: 32px;
+}
